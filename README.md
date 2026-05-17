@@ -210,6 +210,31 @@ Built on the **Crystal Structure Information Format (CSIF)** and **Real-World In
 
 ---
 
+## ── Trilogy Architecture
+
+The CSIF trilogy is engineered as one deterministic local intelligence stack.
+
+| Pillar | Responsibility | Failure Mode Prevented |
+|---|---|---|
+| **CSIF-Guard** | Semantic firewall for write interception and contradiction blocking | Hallucinated memory corruption |
+| **CSIF-Sync** | Multi-agent phase consensus and state propagation | Split-brain drift across local nodes |
+| **CSIF-Cache** | Phase-resonant semantic routing with preflight short-circuit retrieval | Vector DB latency and retrieval overhead |
+
+### Shared Contract Language
+
+- **Determinism:** Given identical inputs, each module must return identical outputs across runs and platforms.
+- **Append-Only Trajectories:** Phase history is never rewritten; new evidence is appended, not mutated.
+- **Auditability:** Every acceptance, rejection, and routing decision must be reconstructable from stored artifacts.
+- **Graceful Degradation:** If optional network or upstream services are unavailable, local geometric validation remains operational.
+
+### Cross-Repository Links
+
+- [CSIF-Guard](https://github.com/MoTechnicalities/CSIF-Guard)
+- [CSIF-Sync](https://github.com/MoTechnicalities/CSIF-Sync)
+- [CSIF-Cache](https://github.com/MoTechnicalities/CSIF-Cache)
+
+---
+
 ## ── License
 
 Apache License 2.0. See [LICENSE](LICENSE) for details.
