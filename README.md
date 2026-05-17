@@ -122,15 +122,15 @@ python3 demo_sync.py
 
 ### Principal Modulo Wrapping
 
-$$\text{wrap\_pi}(\theta) = ((\theta + \pi) \bmod 2\pi) - \pi$$
+$$\operatorname{wrap}_{\pi}(\theta) = ((\theta + \pi) \bmod 2\pi) - \pi$$
 
 ### Adaptive Contradiction Threshold
 
-$$\text{Threshold}_{\text{alarm}} = \frac{\pi}{2} + c \cdot \sigma_{\text{path}}$$
+$$T_{\mathrm{alarm}} = \frac{\pi}{2} + c \cdot \sigma_{\mathrm{path}}$$
 
 ### Deterministic Phase Nudge
 
-$$\theta_{\text{new}} = \text{wrap\_pi}\!\left(\theta + \alpha \cdot \varepsilon \cdot w\right)$$
+$$\theta_{\mathrm{new}} = \operatorname{wrap}_{\pi}\!\left(\theta + \alpha \cdot \varepsilon \cdot w\right)$$
 
 Where $\varepsilon$ is the error signal (phase difference), $w$ is evidence weight, and $\alpha = 0.1$ is the nudge rate.
 
